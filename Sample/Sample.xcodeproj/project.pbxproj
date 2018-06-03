@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A56ABED920C421A50017CC77 /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56ABED820C421A50017CC77 /* UIView+Extentions.swift */; };
 		A5E534811FA5CDBC0039FCE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E534801FA5CDBC0039FCE9 /* AppDelegate.swift */; };
 		A5E534831FA5CDBC0039FCE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E534821FA5CDBC0039FCE9 /* ViewController.swift */; };
 		A5E534861FA5CDBC0039FCE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E534841FA5CDBC0039FCE9 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		A5E534A11FA5CDBC0039FCE9 /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E534A01FA5CDBC0039FCE9 /* SampleUITests.swift */; };
 		A5E534AF1FA5CF050039FCE9 /* CollectionViewLeftAlignFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E534AE1FA5CF050039FCE9 /* CollectionViewLeftAlignFlowLayout.swift */; };
 		A5E534B31FA5D3BE0039FCE9 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E534B21FA5D3BE0039FCE9 /* TagCell.swift */; };
-		A5E534B71FA5D5B30039FCE9 /* UIView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E534B61FA5D5B30039FCE9 /* UIView+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A56ABED820C421A50017CC77 /* UIView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extentions.swift"; sourceTree = "<group>"; };
 		A5E5347D1FA5CDBC0039FCE9 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E534801FA5CDBC0039FCE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5E534821FA5CDBC0039FCE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		A5E534A21FA5CDBC0039FCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5E534AE1FA5CF050039FCE9 /* CollectionViewLeftAlignFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignFlowLayout.swift; sourceTree = "<group>"; };
 		A5E534B21FA5D3BE0039FCE9 /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
-		A5E534B61FA5D5B30039FCE9 /* UIView+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extentions.swift"; path = "../../../../IOS projects/Extensions/UIView+Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +152,8 @@
 		A5E534B51FA5D5970039FCE9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				A5E534B61FA5D5B30039FCE9 /* UIView+Extentions.swift */,
 				A5E534AE1FA5CF050039FCE9 /* CollectionViewLeftAlignFlowLayout.swift */,
+				A56ABED820C421A50017CC77 /* UIView+Extentions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -294,7 +294,7 @@
 			files = (
 				A5E534B31FA5D3BE0039FCE9 /* TagCell.swift in Sources */,
 				A5E534831FA5CDBC0039FCE9 /* ViewController.swift in Sources */,
-				A5E534B71FA5D5B30039FCE9 /* UIView+Extentions.swift in Sources */,
+				A56ABED920C421A50017CC77 /* UIView+Extentions.swift in Sources */,
 				A5E534811FA5CDBC0039FCE9 /* AppDelegate.swift in Sources */,
 				A5E534AF1FA5CF050039FCE9 /* CollectionViewLeftAlignFlowLayout.swift in Sources */,
 			);
